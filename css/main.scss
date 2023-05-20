@@ -900,7 +900,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 50%;
+			width: 100%;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
