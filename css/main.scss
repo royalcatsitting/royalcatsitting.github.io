@@ -951,7 +951,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			@include breakpoint(small) {
 				@include padding(1em, 1em, (0,0,0,1em));
-				background-color: transparent !important;
+				/* background-color: transparent !important; */
 				border-top: solid 15px white;
 				width: 100%;
 
