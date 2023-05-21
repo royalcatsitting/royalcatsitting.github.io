@@ -1216,7 +1216,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			.features {
 				li {
 					@include breakpoint(small) {
-						border-top-color: _palette($p, border);
+						/* border-top-color: _palette($p, border); */
+						border-top-color: white;
 					}
 				}
 			}
