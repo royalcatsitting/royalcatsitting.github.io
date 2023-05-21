@@ -901,6 +901,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			position: relative;
 			text-align: left;
 			width: 100%;
+			border-top: solid 15px white;
 
 			@for $i from 1 through _misc(max-features) {
 				/* $j: 0.035 * $i; */
@@ -938,7 +939,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include breakpoint(medium) {
 				@include padding(1em, 1em, (0,0,0,1em));
 				text-align: left;
-				border-top: solid 10px white;
+				border-top: solid 15px white;
 				
 				&:before {
 					left: 0;
@@ -951,7 +952,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include breakpoint(small) {
 				@include padding(1em, 1em, (0,0,0,1em));
 				/* background-color: transparent !important; */
-				border-top: solid 10px white;
+				border-top: solid 15px white;
 				width: 100%;
 
 				&:first-child {
