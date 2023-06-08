@@ -1837,3 +1837,9 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+	.icon-full {
+		color: #21b2a6;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
+	}
